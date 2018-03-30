@@ -3,7 +3,7 @@ package Lists;
 /**
  * Created by bajlu1731402 on 2018-03-19.
  */
-public class ArrayList<T> {
+public class ArrayList<T> implements List<T> {
 
     private T[] tableau;
     private int taille = 0;
